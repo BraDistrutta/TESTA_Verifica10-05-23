@@ -1,0 +1,36 @@
+/*
+    Completa le seguenti regole con l'obiettivo di ottenere l'interfaccia mostrata
+    nell'immagine fornita (su classroom o al proiettore)
+*/
+
+body, main{
+
+}
+
+header{
+
+}
+
+label, select{
+
+}
+
+main{
+
+}
+
+section > main{
+
+}
+
+footer{
+    
+}
+
+button{
+    margin-top:20px;
+    width: 150px;
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
