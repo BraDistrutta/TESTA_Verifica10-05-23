@@ -4,11 +4,18 @@
 */
 
 body, main{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
 }
 
 header{
-
+    font-size: 35pt;
+    text-shadow: 20px 10px 5px yellow;
 }
 
 label, select{
@@ -16,11 +23,21 @@ label, select{
 }
 
 main{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    margin: 20px;
+    text-align: center;
 }
 
-section > main{
-
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
 }
 
 footer{
